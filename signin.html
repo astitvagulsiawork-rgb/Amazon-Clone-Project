@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <a href="index.html" class="nav-logo border">
+            <div class="logo"></div>
+        </a>
+
+        <div class="nav-address border">
+            <p class="add-first"> Deliver to</p>
+            <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-second"> India</p>
+        </div>
+    </div>
+
+    <form class="nav-search" action="search.html" method="get">
+        <select class="search-select" name="cat">
+            <option value="">All</option>
+            <option value="gaming">Gaming</option>
+            <option value="electronics">Electronics</option>
+            <option value="home-kitchen">Home &amp; Kitchen</option>
+            <option value="fashion">Fashion</option>
+            <option value="beauty">Beauty</option>
+            <option value="books">Books</option>
+            <option value="pets">Pet Supplies</option>
+            <option value="baby-toys">Baby Toys</option>
+        </select>
+        <input placeholder="Search Amazon" class="search-input" type="text" name="q" aria-label="Search Amazon">
+        <button type="submit" class="search-icon" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </form>
+
+     <a href="signin.html" class="nav-signin border">
+    <p><span>Hello, Sign in</span></p>
+    <p class="nav-second">Account &amp; Lists</p>
+    </a>
+     <a href="orders.html" class="nav-return border">
+    <p><span>Returns</span></p>
+    <p class="nav-second">&amp; Orders</p>
+    </a>
+
+        <a href="cart.html" class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+            Cart
+       </a>
+       </div>
+
+      <div class="panel">
+        <div class="all-menu-wrap">
+            <button class="panel-all" id="all-menu-btn" type="button">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </button>
+            <div class="all-menu-dropdown" id="all-menu-dropdown">
+                <div class="all-menu-header">Shop by Category</div>
+                <a href="category.html?cat=gaming">Gaming</a>
+                <a href="category.html?cat=electronics">Electronics</a>
+                <a href="category.html?cat=home-kitchen">Home &amp; Kitchen</a>
+                <a href="category.html?cat=fashion">Fashion</a>
+                <a href="category.html?cat=beauty">Beauty and Personal Care</a>
+                <a href="category.html?cat=books">Books</a>
+                <a href="category.html?cat=pets">Pet Supplies</a>
+                <a href="category.html?cat=baby-toys">Baby Toys</a>
+                <div class="all-menu-divider"></div>
+                <a href="deals.html">Today's Deals</a>
+                <a href="gift-cards.html">Gift Cards</a>
+                <a href="sell.html">Sell</a>
+                <a href="registry.html">Registry</a>
+                <a href="prime-video.html">Prime Video</a>
+                <a href="customer-service.html">Customer Service</a>
+            </div>
+        </div>
+        <div class="panel-ops">
+            <a href="deals.html">Today's Deals</a>
+            <a href="gift-cards.html">Gift Cards</a>
+            <a href="sell.html">Sell</a>
+            <a href="registry.html">Registry</a>
+            <a href="prime-video.html">Prime Video</a>
+            <a href="customer-service.html">Customer Service</a>
+        </div>
+    </div>
+   </header>
+    <main>
+    <div class="page-wrap">
+        <div class="form-card">
+            <h1>Sign in</h1>
+            <form id="signin-form">
+                <div class="form-group">
+                    <label for="email">Email or mobile phone number</label>
+                    <input type="text" id="email" required>
+                </div>
+                <button type="submit" class="btn btn-yellow btn-block">Continue</button>
+                <p class="form-note">
+                    This is a frontend-only demo &mdash; there's no real account system.
+                    Submitting this form just simulates a sign-in.
+                </p>
+            </form>
+            <div class="divider-line">New to Amazon?</div>
+            <a href="account.html" class="btn btn-outline btn-block">Create your Amazon Clone account</a>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <a class="foot-panel1" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+            Back to top
+        </a>
+
+        <div class="foot-panel2">
+            <ul>
+                <h3>Get to Know Us</h3>
+                <a href="info.html?page=careers">Careers</a>
+                <a href="info.html?page=blog">Blog</a>
+                <a href="info.html?page=about">About Amazon</a>
+                <a href="info.html?page=investor-relations">Investor Relations</a>
+                <a href="info.html?page=devices">Amazon Devices</a>
+                <a href="info.html?page=science">Amazon Science</a>
+            </ul>
+             <ul>
+                <h3>Make Money with Us</h3>
+                <a href="sell.html">Sell products on Amazon</a>
+                <a href="info.html?page=sell-business">Sell on Amazon Business</a>
+                <a href="info.html?page=sell-apps">Sell apps on Amazon</a>
+                <a href="info.html?page=affiliate">Become an Affiliate</a>
+                <a href="info.html?page=advertise">Advertise Your Products</a>
+                <a href="info.html?page=self-publish">Self-Publish with Us</a>
+             </ul>
+                <ul>
+                <h3>Amazon Payment Products</h3>
+                <a href="info.html?page=rewards-visa">Amazon Rewards Visa Signature Cards</a>
+                <a href="info.html?page=store-card">Amazon.com Store Card</a>
+                <a href="info.html?page=business-card">Amazon Business Card</a>
+                <a href="info.html?page=credit-line">Amazon.com Corporate Credit Line</a>
+                <a href="info.html?page=shop-points">Shop with Points</a>
+                <a href="info.html?page=currency-converter">Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <h3>Let Us Help You</h3>
+                <a href="account.html">Your Account</a>
+                <a href="orders.html">Your Orders</a>
+                <a href="info.html?page=shipping">Shipping Rates &amp; Policies</a>
+                <a href="info.html?page=returns">Returns &amp; Replacements</a>
+                <a href="info.html?page=manage-content">Manage Your Content and Devices</a>
+                <a href="info.html?page=assistant">Amazon Assistant</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <a href="index.html" class="footer-logo"></a>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="info.html?page=conditions">Conditions of Use</a>
+                <a href="info.html?page=privacy">Privacy Notice</a>
+                <a href="info.html?page=ads-privacy">Your Ads Privacy Choices</a>
+
+                <div class="copyright">
+                    &copy; 1996-2026, Amazon Clone Demo Project. Not affiliated with Amazon.com, Inc.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="products-data.js"></script>
+    <script src="cart.js"></script>
+    <script>
+    document.getElementById('signin-form').addEventListener('submit', e => {
+      e.preventDefault();
+      window.location.href = 'account.html';
+    });
+    </script>
+
+</body>
+</html>
