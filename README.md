@@ -1,3 +1,5 @@
+<img width="1920" height="1200" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/71957cc8-a5c1-4584-a44d-959139e229ed" />
+<img width="1920" height="1200" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/cb52e638-5a42-4510-a39d-770b5a061967" />
 # Amazon Clone (Frontend-Only Demo)
 
 **[English](#english) | [日本語](#japanese)**
